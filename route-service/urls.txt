@@ -1,0 +1,16 @@
+Route Service
+http://localhost:8000/get-routes
+
+Route Invocation Service
+http://localhost:8100/invoke-route-service
+http://localhost:8100/invoke-route-service-feign
+
+Api Gateway
+http://localhost:8765/ROUTE-SERVICE/get-routes
+http://localhost:8765/ROUTE-INVOCATION/invoke-route-service
+http://localhost:8765/ROUTE-INVOCATION/invoke-route-service-feign
+
+Api Gateway (make service lowercase)
+http://localhost:8765/route-service/get-routes
+http://localhost:8765/route-invocation/invoke-route-service
+http://localhost:8765/route-invocation/invoke-route-service-feign
